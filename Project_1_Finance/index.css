@@ -1,0 +1,40 @@
+body {
+  margin: 0px;
+}
+
+:root {
+  --primary-font-family: 'Merriweather', serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 30px;
+}
+
+h3 {
+  font-family: var(--primary-font-family);
+  font-weight: bold;
+}
+
+ul {
+  display: flex;
+}
+
+li {
+  padding: 0px 23px;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  font-family: var(--primary-font-family);
+  font-weight: 400;
+  color: black;
+  padding: 10px 20px;
+}
+
+a:hover {
+  color: white;
+  background-color: black;
+}
